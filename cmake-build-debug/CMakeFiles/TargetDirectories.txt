@@ -1,0 +1,3 @@
+C:/Users/nequamy/CLionProjects/CPP_lessons/cmake-build-debug/CMakeFiles/CPP_lessons.dir
+C:/Users/nequamy/CLionProjects/CPP_lessons/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nequamy/CLionProjects/CPP_lessons/cmake-build-debug/CMakeFiles/rebuild_cache.dir
