@@ -40,105 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/nequamy/CLionProjects/CPP_lessons/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target task1
-
-
-#############################################
-# Order-only phony target for task1
-
-build cmake_object_order_depends_target_task1: phony || CMakeFiles/task1.dir
-
-build CMakeFiles/task1.dir/homework_2/task_1.cpp.obj: CXX_COMPILER__task1_unscanned_Debug C$:/Users/nequamy/CLionProjects/CPP_lessons/homework_2/task_1.cpp || cmake_object_order_depends_target_task1
-  DEP_FILE = CMakeFiles\task1.dir\homework_2\task_1.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\task1.dir
-  OBJECT_FILE_DIR = CMakeFiles\task1.dir\homework_2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target task1
-
-
-#############################################
-# Link the executable task1.exe
-
-build task1.exe: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/homework_2/task_1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\task1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = task1.exe
-  TARGET_IMPLIB = libtask1.dll.a
-  TARGET_PDB = task1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target task2
-
-
-#############################################
-# Order-only phony target for task2
-
-build cmake_object_order_depends_target_task2: phony || CMakeFiles/task2.dir
-
-build CMakeFiles/task2.dir/homework_2/task_1.cpp.obj: CXX_COMPILER__task2_unscanned_Debug C$:/Users/nequamy/CLionProjects/CPP_lessons/homework_2/task_1.cpp || cmake_object_order_depends_target_task2
-  DEP_FILE = CMakeFiles\task2.dir\homework_2\task_1.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\task2.dir
-  OBJECT_FILE_DIR = CMakeFiles\task2.dir\homework_2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target task2
-
-
-#############################################
-# Link the executable task2.exe
-
-build task2.exe: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/homework_2/task_1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\task2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = task2.exe
-  TARGET_IMPLIB = libtask2.dll.a
-  TARGET_PDB = task2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target task3
-
-
-#############################################
-# Order-only phony target for task3
-
-build cmake_object_order_depends_target_task3: phony || CMakeFiles/task3.dir
-
-build CMakeFiles/task3.dir/homework_2/task_1.cpp.obj: CXX_COMPILER__task3_unscanned_Debug C$:/Users/nequamy/CLionProjects/CPP_lessons/homework_2/task_1.cpp || cmake_object_order_depends_target_task3
-  DEP_FILE = CMakeFiles\task3.dir\homework_2\task_1.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\task3.dir
-  OBJECT_FILE_DIR = CMakeFiles\task3.dir\homework_2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target task3
-
-
-#############################################
-# Link the executable task3.exe
-
-build task3.exe: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/homework_2/task_1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\task3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = task3.exe
-  TARGET_IMPLIB = libtask3.dll.a
-  TARGET_PDB = task3.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -165,12 +66,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build task1: phony task1.exe
-
-build task2: phony task2.exe
-
-build task3: phony task3.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +74,7 @@ build task3: phony task3.exe
 #############################################
 # Folder: C:/Users/nequamy/CLionProjects/CPP_lessons/cmake-build-debug
 
-build all: phony task1.exe task2.exe task3.exe
+build all: phony
 
 # =============================================================================
 # Built-in targets
